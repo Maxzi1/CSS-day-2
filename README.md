@@ -4,14 +4,14 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
+- (#overview)
+  - (#the-challenge)
+  - (#screenshot)
+  - (#links)
+- (#my-process)
+  - (#built-with)
+  - (#what-i-learned)
+- (#author)
 
 ## Overview
 
@@ -23,15 +23,15 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the solution](./screenshot.jpg)
+(/images/web.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Maxzi1/CSS-day-2.git)
+- Live Site URL: (https://css-day-2-woad.vercel.app/)
 
 ## My process
-
+Test my skills first, then i polish with google and gemini
 ### Built with
 
 - Semantic HTML5 markup
@@ -47,4 +47,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Maxzi1](https://www.frontendmentor.io/profile/Maxzi1)
