@@ -4,14 +4,14 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ## Table of contents
 
-- (#overview)
-  - (#the-challenge)
-  - (#screenshot)
-  - (#links)
-- (#my-process)
-  - (#built-with)
-  - (#what-i-learned)
-- (#author)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
 ## Overview
 
@@ -23,15 +23,17 @@ Users should be able to:
 
 ### Screenshot
 
-(/images/web.png)
+![Website Screenshot](./images/web.png)
 
 ### Links
 
-- Solution URL: (https://github.com/Maxzi1/CSS-day-2.git)
-- Live Site URL: (https://css-day-2-woad.vercel.app/)
+- Solution URL: https://github.com/Maxzi1/CSS-day-2.git
+- Live Site URL: https://css-day-2-woad.vercel.app/
 
 ## My process
-Test my skills first, then i polish with google and gemini
+
+Test my skills first, then I polish with Google and Gemini.
+
 ### Built with
 
 - Semantic HTML5 markup
