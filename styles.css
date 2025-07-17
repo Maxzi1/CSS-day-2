@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap");
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -7,78 +7,79 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-  
+
   line-height: 1.5rem;
 }
-.title-container{
-    text-align: center;
-    color: hsl(234, 12%, 34%);
-    padding: 100px 200px;
+.title-container {
+  text-align: center;
+  color: hsl(234, 12%, 34%);
+  padding: 100px 200px;
 }
-.title-thin{
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 1rem;
+.title-thin {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1rem;
 }
-.title-bold{
-    font-weight: 700;
-    margin-bottom: 1.2rem;
+.title-bold {
+  font-weight: 700;
+  margin-bottom: 1.2rem;
 }
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 20px;
-    padding: 0 100px;
-    
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Remove commas */
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 30px 20px; /* More vertical gap for stacked cards */
+  padding: 0 100px;
+  align-items: center;
+  min-height: 500px;
 }
+
 .card {
-    padding: 24px;
-    padding-bottom: 60px;
-    border-radius: 8px;
-    background: hsl(0, 0%, 100%);
-    min-height: 180px;
-    width: 100%;
-    margin-bottom: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-top: 4px solid transparent;
+  padding: 24px;
+  padding-bottom: 60px;
+  border-radius: 8px;
+  background: hsl(0, 0%, 100%);
+  min-height: 180px;
+  width: 100%;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid transparent;
 }
-.card h2{
-    color: hsl(234, 12%, 34%);
-    margin-bottom: 1rem;
+.card h2 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 1rem;
 }
-.card p{
-    color: hsl(212, 6%, 44%);
-    margin-bottom: 50px;
+.card p {
+  color: hsl(212, 6%, 44%);
+  margin-bottom: 50px;
 }
-.card-img{
-    display: flex;
-    justify-content: flex-end;
+.card-img {
+  display: flex;
+  justify-content: flex-end;
 }
-.card-1{
+.card-1 {
   border-top-color: #1de9b6;
-  grid-row: 1 / span 1; /* Starts in row 1, spans 1 row */
-  grid-column: 1 / span 1; /* Starts in column 1, spans 1 column */
+  grid-column: 1 / 2;
 }
 
-.card-2{
+.middle-card {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  grid-column: 2 / 3;
+  height: 100%;
+}
+.card-2 {
   border-top-color: #ff5252;
-  grid-row: 1 / span 1;
-  grid-column: 2 / span 1;
 }
 
-.card-3{
+.card-3 {
   border-top-color: #ffa000;
-  grid-row: 1 / span 1;
-  grid-column: 3 / span 1;
 }
 
-.card-4{
+.card-4 {
   border-top-color: #40c4ff;
-  grid-row: 2 / span 1;
-  grid-column: 2 / span 1;
+  grid-column: 3 / 4;
 }
 @media (max-width: 768px) {
   .grid-container {
